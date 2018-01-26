@@ -63,6 +63,15 @@ for emoji in emojis:
     print(emoji.title)
 ```
 
+## command-line
+
+    $ emojipedia <emoji-name>
+
+> For example:
+
+    $ emojipedia unicorn-face
+    > 🦄
+
 ## Documentation
 
 Read more about python-emojipedia on the [ReadTheDocs](https://python-emojipedia.readthedocs.io/en/latest/) page.
