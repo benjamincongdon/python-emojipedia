@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-
 from setuptools import setup
+
 
 setup(name='Emojipedia',
       packages=['emojipedia'],
@@ -20,4 +20,9 @@ setup(name='Emojipedia',
                    'Topic :: Communications :: Chat',
                    'Topic :: Text Processing',
                    'Topic :: Utilities'],
+      entry_points={
+          'console_scripts': [
+              'emojipedia = emojipedia.bin:run'
+          ]
+      }
       )
